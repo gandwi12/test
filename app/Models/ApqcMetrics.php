@@ -1,11 +1,12 @@
 <?php
 
 namespace App\Models;
+use app\Models\ApqcProcess;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
-class ApqcMetric extends Model
+class ApqcMetrics extends Model
 {
     protected $fillable = [
         'apqc_process_id',
