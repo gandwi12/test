@@ -10,7 +10,7 @@ class ApqcProcessSeeder extends Seeder
 {
     public function run(): void
     {
-        $file = fopen(base_path("database/seeders/combined.csv"), "r");
+        $file = fopen(base_path("database/seeders/apqc_csv/combined.csv"), "r");
         
         fgetcsv($file);
 
