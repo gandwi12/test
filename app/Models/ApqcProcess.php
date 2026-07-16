@@ -35,6 +35,6 @@ class ApqcProcess extends Model
 
     public function metrics(): HasMany
     {
-        return $this->hasMany(ApqcMetric::class);
+        return $this->hasMany(ApqcMetrics::class);
     }
 }

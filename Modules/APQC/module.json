@@ -1,0 +1,11 @@
+{
+    "name": "APQC",
+    "alias": "apqc",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\APQC\\Providers\\APQCServiceProvider"
+    ],
+    "files": []
+}
